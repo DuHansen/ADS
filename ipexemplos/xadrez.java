@@ -1,30 +1,27 @@
 package app;
 import java.util.Scanner;
 
-// 40 horas semanais
-// Hora extra , 50%
-public class salarioextra {
-    public static void main(String[] args){
-        System.out.println("Informe o valor pago por hora: " );
+public class xadrez {
+    public void main(String[] args){
+       System.out.println("Informe a nota de inicio: " );
        Scanner teclado = new Scanner(System.in);
 
-       int valorhora = teclado.nextInt();
+       int hora1 = teclado.nextInt();
 
-       System.out.println("Informe as horas trabalhadas: " );
+       System.out.println("Informe que terminou: " );
        Scanner tecla= new Scanner(System.in);
 
-        int horastrabalhadas = tecla.nextInt();
+        int hora2 = tecla.nextInt();
 
         tecla.close();
         teclado.close();
 
-        double horastrabalhadasextras = horastrabalhadas - 40; // apenas horas extra
-        double horasextra = horastrabalhadasextras*valorhora*1.5; // valor das horas extras
 
-        if(horastrabalhadas > 40){
-            System.out.println("O valor das horas extras nesse mes foi:   " + horasextra );
-        }else{
-            System.out.println("Informe o valor das horas extras nesse mes:   " +  horastrabalhadas*valorhora);
+        int horatotal = hora1 - hora2; 
+        if(horatotal  == 0 ){
+            System.out.println("Passou do tempo limite =  ");
+        }else {
+            System.out.println("O tempo esta " + horatotal);
         }
     }
 }
