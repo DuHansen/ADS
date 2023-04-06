@@ -18,10 +18,10 @@ public class salarioextra {
         tecla.close();
         teclado.close();
 
-        double horastrabalhadasextras = horastrabalhadas - 40; // apenas horas extra
+        double horastrabalhadasextras = horastrabalhadas - 160; // apenas horas extra
         double horasextra = horastrabalhadasextras*valorhora*1.5; // valor das horas extras
 
-        if(horastrabalhadas > 40){
+        if(horastrabalhadas > 160){
             System.out.println("O valor das horas extras nesse mes foi:   " + horasextra );
         }else{
             System.out.println("Informe o valor das horas extras nesse mes:   " +  horastrabalhadas*valorhora);
