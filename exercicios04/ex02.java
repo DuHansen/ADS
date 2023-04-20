@@ -10,11 +10,16 @@ public class App {
         System.out.println("/////////////////");
         System.out.println("Numeros em ordem decrescente: ");
         int x = 10;
-        while(x >= 1){
+        while(x >= 1){      
             System.out.println("São: " + x);
             x -- ;
         }
-        
+        /*
+         for(int x = 10; x > 0; x --){
+            System.out.println("São: " + x);
+           
+        }
+        */
 
     }
 
