@@ -24,4 +24,12 @@ public class ex04 {
         teclado.close();
     }
 }
+/*
+ public static void main(String[] args){
+    Scanner teclado = new Scanner(System.in);
+    double acumulador = 0;
+    
+    
+    }
 
+*/
