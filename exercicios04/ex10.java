@@ -20,7 +20,8 @@ public class ex10 {
    
     int  maior = 0, count = 0, totalsalario = 0, continuar = 1, habitantes = 0;
     System.out.println("//////////////////////////");
-
+   
+        
    do{
 
     System.out.println((x+1)+" Número de filhos: ");
@@ -32,7 +33,9 @@ public class ex10 {
     System.out.println((x+1)+" Salário: ");
     int salario = teclado.nextInt();
     totalsalario += salario;
-    
+       
+   
+       
     if(salario <= 1000){
         count++;
     }
@@ -45,7 +48,10 @@ public class ex10 {
     if(salario > maior){
         
         maior = salario;
-    }
+    } 
+    System.out.println("Deseja continuar 1 - sim , 2 - não");
+    continuar = teclado.nextInt();
+       
     habitantes ++;
     }while(continuar == 1);
         
