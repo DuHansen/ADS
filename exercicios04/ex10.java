@@ -16,16 +16,12 @@ public class ex10 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
-    System.out.println("Quantos habitantes: ");
-    int habitantes = teclado.nextInt();
-    
     double filhostotal = 0;
-    int totalsalario = 0;
-    int  maior = 0;
-    int count = 0;
+   
+    int  maior = 0, count = 0, totalsalario = 0, continuar = 1, habitantes = 0;
     System.out.println("//////////////////////////");
 
-    for(int x = 0; x < habitantes; x++){
+   do{
 
     System.out.println((x+1)+" Número de filhos: ");
 
@@ -36,7 +32,7 @@ public class ex10 {
     System.out.println((x+1)+" Salário: ");
     int salario = teclado.nextInt();
     totalsalario += salario;
-
+    
     if(salario <= 1000){
         count++;
     }
@@ -50,7 +46,9 @@ public class ex10 {
         
         maior = salario;
     }
-    }
+    habitantes ++;
+    }while(continuar == 1);
+        
     System.out.println("//////////////////////////");
     System.out.println("//////////////////////////");
     double percentual = count*100/habitantes;
