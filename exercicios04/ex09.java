@@ -11,6 +11,10 @@ public class ex09 {
         Scanner teclado = new Scanner(System.in);
         int a = 0, maior = 0, menor = 0, total = 0;
         
+        
+        //double maior = Double.negative_infinity;
+        //double menor = Double.positive_infinity;
+        
         System.out.println("Insira quantos números a serem lidos:");
         int i = teclado.nextInt();
 
@@ -20,7 +24,12 @@ public class ex09 {
             a = teclado.nextInt();
 
             total += a;
-            
+            /*
+            if (x == 0){
+            maior = a;
+            menor = a;
+            }
+            */
             if(a > maior){
                 
                 maior = a;
