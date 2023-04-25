@@ -20,19 +20,13 @@ public class ex09 {
             a = teclado.nextInt();
 
             total += a;
-
-            if(x == 0){
-                
-                maior = a;
-                menor = a;
-            }
             
             if(a > maior){
                 
                 maior = a;
             }
             
-            if(a < menor){
+            if(a < menor || x == 1){
                 
                 menor = a;
             }
