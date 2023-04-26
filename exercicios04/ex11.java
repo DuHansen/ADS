@@ -27,10 +27,12 @@ public class ex11 {
         total += valor;
         produtos++;
         }
-
-
+    /*do{
+    }while(encerrar != 1);
+    */
         double medio = total/produtos;
         System.out.println("O valor total: R$ " + total);
+        System.out.println("O total de itens comprados: R$ " + produtos);
         System.out.println("Resultado médio de valor por produtos: R$ " + medio);
     teclado.close();
     }
