@@ -28,7 +28,7 @@ public class ex13 {
         System.out.println("Qual a distancia da proxima prova:  " );
         double prodistancia = teclado.nextDouble();
 
-        double tempopro = prodistancia/(velocidademedia/60);
+        double tempopro = (prodistancia/velocidademedia)/60;
 
         System.out.println("O tempo que o corredor vai levar para a proxima prova é: " + tempopro + "Minutos");
 
