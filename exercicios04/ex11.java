@@ -20,11 +20,10 @@ public class ex11 {
         
         while(true){
 
-        double valor= teclado.nextInt();
+        double valor += teclado.nextInt();
             if(valor == 0){
                 break;
             }
-        total += valor;
         produtos++;
         }
     /*do{
