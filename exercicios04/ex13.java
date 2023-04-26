@@ -30,7 +30,7 @@ public class ex13 {
 
         double tempopro = (prodistancia/velocidademedia)/60;
 
-        System.out.println("O tempo que o corredor vai levar para a proxima prova é: " + tempopro + "Minutos");
+        System.out.println("O tempo que o corredor vai levar para a proxima prova é: " + tempopro + " Minutos");
 
     teclado.close();
     }
