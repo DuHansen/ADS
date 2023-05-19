@@ -1,6 +1,6 @@
 # Algoritimos em JAVA 
 
-#exercicio 
+# exercicio 
 
 exercicio05 - CRIE UM  ALGORITMO QUE  LEIA  UM  VALOR  NUMÉRICO  INTEIRO  E  APRESENTE  COMO  RESULTADO  O  SEU ANTECESSOR E O SEU SUCESSOR.
 
