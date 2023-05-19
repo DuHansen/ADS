@@ -1,4 +1,4 @@
-# Algoritimos em JAVA 
+# Algoritimos JAVA 
 
 # exercicio 
 
